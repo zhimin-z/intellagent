@@ -40,6 +40,8 @@ IntellAgent framework consists of three steps:
 - Critiquing the conversation and providing feedback on the tested policies.
 > To better understand the key concepts and how the IntellAgent system operates, refer to the [system overview guide](https://intellagent-doc.plurai.ai/How_it_Works/how-it-works/)
 
+> To see which evaluation strategies IntellAgent supports from the unified evaluation workflow, see the [Supported Strategies](docs/supported-strategies.md) documentation.
+
 ## 🔍 Demo
 
 ![simulator_recording](./docs/simulator_recording.gif)
