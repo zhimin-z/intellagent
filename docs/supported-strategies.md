@@ -1,6 +1,8 @@
 # IntellAgent Supported Strategies
 
-This document identifies which strategies from the **Unified Evaluation Workflow** are natively supported by IntellAgent. A strategy is considered "supported" only if IntellAgent provides it in its full installation without requiring custom modules or external library integrations.
+This document identifies which strategies from the **Unified Evaluation Workflow** are natively supported by IntellAgent. The Unified Evaluation Workflow is an abstraction of evaluation patterns across 50+ frameworks spanning diverse domains—from text generation to robot manipulation, molecular property prediction, and hardware stress testing.
+
+A strategy is considered "supported" only if IntellAgent provides it in its full installation without requiring custom modules or external library integrations.
 
 ## Summary
 
@@ -58,7 +60,7 @@ IntellAgent is a specialized evaluation harness designed for **conversational AI
 
 **✅ Strategy 2: Model-in-Process (Local Inference)**
 - **Supported**: YES (limited)
-- **Evidence**: Can load and use local LLM models through LangChain Community integrations, though primarily designed for API-based models (requirements.txt includes langchain_community)
+- **Evidence**: Supports local model loading via HuggingFacePipeline integration (simulator/utils/llm_utils.py lines 295-305, imports HuggingFacePipeline from langchain_community), though primarily designed for API-based models
 
 **❌ Strategy 3: Algorithm Implementation (In-Memory Structures)**
 - **Supported**: NO
