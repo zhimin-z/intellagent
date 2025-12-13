@@ -18,7 +18,7 @@ IntellAgent is a specialized evaluation harness designed for **conversational AI
 
 **✅ Strategy 2: PyPI Packages**
 - **Supported**: YES
-- **Evidence**: Full installation via `pip install -r requirements.txt` with dependencies including langchain, langgraph, pandas, streamlit, plotly, networkx, and various LLM provider SDKs (requirements.txt)
+- **Evidence**: Full installation via `pip install -r requirements.txt` with dependencies including LangChain, LangGraph, pandas, streamlit, plotly, networkx, and various LLM provider SDKs (requirements.txt)
 
 **❌ Strategy 3: Node Package**
 - **Supported**: NO
@@ -40,7 +40,7 @@ IntellAgent is a specialized evaluation harness designed for **conversational AI
 
 **✅ Strategy 2: Repository Authentication**
 - **Supported**: YES (implicit)
-- **Evidence**: Uses langchain and langchain_community which support Hugging Face Hub authentication for model/dataset access (requirements.txt)
+- **Evidence**: Uses LangChain and langchain_community which support Hugging Face Hub authentication for model/dataset access (requirements.txt)
 
 **❌ Strategy 3: Evaluation Platform Authentication**
 - **Supported**: NO
@@ -54,11 +54,11 @@ IntellAgent is a specialized evaluation harness designed for **conversational AI
 
 **✅ Strategy 1: Model-as-a-Service (Remote Inference)**
 - **Supported**: YES
-- **Evidence**: Native support for remote API calls to OpenAI, Azure OpenAI, Google Vertex AI, and Anthropic via langchain integrations (config/config_default.yml, simulator/dialog/dialog_manager.py, simulator/utils/llm_utils.py)
+- **Evidence**: Native support for remote API calls to OpenAI, Azure OpenAI, Google Vertex AI, and Anthropic via LangChain integrations (config/config_default.yml, simulator/dialog/dialog_manager.py, simulator/utils/llm_utils.py)
 
 **✅ Strategy 2: Model-in-Process (Local Inference)**
 - **Supported**: YES (limited)
-- **Evidence**: Can load and use local LLM models through langchain_community integrations, though primarily designed for API-based models (requirements.txt includes langchain_community)
+- **Evidence**: Can load and use local LLM models through LangChain Community integrations, though primarily designed for API-based models (requirements.txt includes langchain_community)
 
 **❌ Strategy 3: Algorithm Implementation (In-Memory Structures)**
 - **Supported**: NO
