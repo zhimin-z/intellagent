@@ -184,15 +184,15 @@ IntellAgent is a specialized evaluation harness designed for **conversational AI
 
 ## Supported Strategies Summary
 
-**Total Supported: 18 out of 40 strategies**
+**Total Supported: 20 out of 34 strategies**
 
-### Provisioning (3/7)
+### Provisioning (4/8)
 - Git Clone ✅
 - PyPI Packages ✅
 - API Provider Authentication ✅
 - Repository Authentication ✅ (implicit)
 
-### Specification (6/8)
+### Specification (7/10)
 - Model-as-a-Service ✅
 - Model-in-Process ✅ (limited)
 - Policy/Agent Instantiation ✅
