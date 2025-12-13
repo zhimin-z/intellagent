@@ -137,7 +137,7 @@ IntellAgent is a specialized evaluation harness designed for **conversational AI
 - **Evidence**: LLM-based critique agent evaluates conversations against policies and provides subjective judgments (simulator/dialog/dialog_manager.py, simulator/utils/analysis.py)
 
 **❌ Strategy 4: Performance Measurement**
-- **Supported**: NO (limited)
+- **Supported**: NO
 - **Evidence**: Tracks token costs but no built-in latency, throughput, memory, or energy consumption metrics
 
 ### Step B: Aggregate Scoring
