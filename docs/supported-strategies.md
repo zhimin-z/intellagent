@@ -60,7 +60,7 @@ IntellAgent is a specialized evaluation harness designed for **conversational AI
 
 **✅ Strategy 2: Model-in-Process (Local Inference)**
 - **Supported**: YES (limited)
-- **Evidence**: Supports local model loading via HuggingFacePipeline integration (simulator/utils/llm_utils.py lines 295-305, imports HuggingFacePipeline from langchain_community), though primarily designed for API-based models
+- **Evidence**: Supports local model loading via HuggingFacePipeline integration (see HuggingFacePipeline.from_model_id implementation in get_llm function in simulator/utils/llm_utils.py), though primarily designed for API-based models
 
 **❌ Strategy 3: Algorithm Implementation (In-Memory Structures)**
 - **Supported**: NO
