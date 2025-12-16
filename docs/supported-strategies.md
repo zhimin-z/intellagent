@@ -194,7 +194,7 @@ IntellAgent is a specialized evaluation harness designed for **conversational AI
 
 ## Supported Strategies Summary
 
-**Total: 19 Natively Supported + 1 via Third-Party Integration = 20 Supported out of 34 strategies**
+**Total: 19 Natively Supported + 2 via Third-Party Integration = 21 Supported out of 34 strategies**
 
 ### Provisioning (3 Native + 1 Integration = 4/8)
 - Git Clone ✅ (Native)
@@ -211,16 +211,16 @@ IntellAgent is a specialized evaluation harness designed for **conversational AI
 - Ground Truth Preparation ✅ (Native)
 - Judge Preparation ✅ (Native)
 
-### Execution (2 Native = 2/4)
+### Execution (2 Native + 0 Integration = 2/4)
 - Batch Inference ✅ (Native)
 - Interactive Loop ✅ (Native)
 
-### Assessment (3 Native = 3/6)
+### Assessment (3 Native + 0 Integration = 3/6)
 - Deterministic Measurement ✅ (Native)
 - Subjective Measurement ✅ (Native)
 - Distributional Statistics ✅ (Native)
 
-### Reporting (4 Native = 4/6)
+### Reporting (4 Native + 0 Integration = 4/6)
 - Execution Tracing ✅ (Native)
 - Subgroup Analysis ✅ (Native)
 - Chart Generation ✅ (Native)
